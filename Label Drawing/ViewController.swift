@@ -26,7 +26,7 @@ class ViewController: UIViewController {
 
     func fetchTestString() -> String {
         let testString1 = "Test <tag> string <tag>."
-        let testString2 = "This is a very long <tag> string that wraps onto two lines. <tag>"
+        let testString2 = "This is a very long string that wraps onto multiple lines. The first view will be drawn here: <tag>, the second here: <tag> and the third here: <tag>."
         let testString3 = "Draw view here: <tag>, and here: <tag>."
         let testString4 = "Testing drawing on multiple lines <tag> using a long <tag> string."
 
